@@ -7,16 +7,21 @@
   <title>¡Feliz Cumpleaños, Loan!</title>
 </head>
 <body>
-  <div class="container">
-    <h1 id="greeting">¡Feliz cumpleaños, Loan! 🎉</h1>
-    <img src="img/Loan.jpeg" alt="Foto de Loan" class="profile-pic">
-    
-    <div class="language-selector">
-        <button onclick="changeLanguage('es')">🇪🇸 Español</button>
-        <button onclick="changeLanguage('en')">🇬🇧 English</button>
-        <button onclick="changeLanguage('fi')">🇫🇮 Suomi</button>
+  <div class="background">
+    <div class="container">
+        <h1 id="greeting">¡Bienvenido al mundo, Loan! 🎉</h1>
+        <p id="birth-text">Hoy, <span id="birth-date"></span>, es un día especial porque Loan ha nacido. ¡Felicidades! 🎂</p>
+        
+        <img src="/img/Loan.jpeg" alt="Foto de Loan" class="profile-pic">
+        
+        <div class="language-selector">
+            <button onclick="changeLanguage('es')">🇪🇸 Español</button>
+            <button onclick="changeLanguage('en')">🇬🇧 English</button>
+            <button onclick="changeLanguage('fi')">🇫🇮 Suomi</button>
+        </div>
     </div>
 </div>
 <canvas id="confetti"></canvas>
+<script src="script.js"></script>
 </body>
 </html>
